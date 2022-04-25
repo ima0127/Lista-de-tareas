@@ -18,6 +18,19 @@ main {
   justify-content: center;
 }
 
+input{
+  border-radius: 5px;
+}
+
+.modeDark{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(251, 252, 246);
+}
 form {
   width: 100%;
   justify-content: space-between;
@@ -75,6 +88,8 @@ form {
   overflow-y: scroll;
   max-height: 60vh;
   height: 60vh;
+  overflow-x: hidden;
+
 }
 
 .card {
@@ -87,6 +102,7 @@ form {
   align-content: center;
   margin: 5px 0px;
   position: relative;
+  border-radius: 5px;
 }
 
 .task {
@@ -129,4 +145,33 @@ form {
 .date {
   width: 100%;
   padding: 15px;
+}
+
+-webkit-scrollbar{
+  background: black;
+}
+
+@media screen and (max-width:1024px){
+  .mainCard{
+    width: 80%;
+  }
+}
+
+
+@media screen and (max-width:740px){
+
+  .content{
+    display: flex;
+    flex-direction: column;
+  }
+  .mainCard{
+    margin-top: 65px;
+    width: 80%;
+  }
+  .inputForm{
+    width: 200px;
+  }
+  .calendar{
+    width: 200px;
+  }
 }

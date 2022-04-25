@@ -1,0 +1,40 @@
+.dark main{
+    background: #03045e;
+    transition: 300ms;
+}
+
+.dark .mainCard{
+    background: rgb(59, 56, 56);
+    transition: 400ms;
+
+}
+
+.dark span{
+    color: antiquewhite;
+    transition: 400ms;
+
+}
+
+.dark .modeDark{
+    background: #24243d;
+    color: #fff;
+    transition: 400ms;
+    border: 2px solid rgb(185, 185, 185);
+}
+.dark .date{
+    color: #fff;
+    transition: 400ms;
+
+}
+
+.dark .card{
+    background: rgb(87, 87, 87);
+    transition: 400ms;
+
+}
+
+.dark .btnCreate{
+    background: #24243d;
+    transition: 400ms;
+
+}
