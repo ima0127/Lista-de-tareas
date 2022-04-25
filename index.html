@@ -16,22 +16,29 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="darkStyle.css" />
   </head>
   <body>
     <main>
+      <div class="box">
+        <button class="modeDark">Modo Oscuro</button>
+      </div>
       <div class="mainCard">
         <div class="title"><img src="./assets/rocket.svg" /></div>
         <div>
           <form action="">
-            <input
+            <div class="content">
+
+              <input
               type="text"
               name="task"
               placeholder="Nombre de la tarea"
               class="inputForm"
               autocomplete="off"
               data-form-input
-            />
-            <input type="datetime-local" data-form-date placeholder="YYYY/MM/DD"/>
+              />
+              <input type="datetime-local" class="calendar" data-form-date placeholder="YYYY/MM/DD"/>
+            </div>
             <button type="submit" class="btnCreate" data-form-btn>
               Agregar <i class="fas fa-plus-circle"></i>
             </button>
@@ -44,5 +51,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="module" src="script.js"></script>
+    <script type="module" src="scriptDark.js"></script>
   </body>
 </html>
