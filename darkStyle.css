@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .dark main{
     background: #03045e;
     transition: 300ms;
@@ -38,7 +38,7 @@
     background: #24243d;
     transition: 400ms;
 
-=======
+}
 .dark main{
     background: #03045e;
     transition: 300ms;
@@ -78,5 +78,4 @@
     background: #24243d;
     transition: 400ms;
 
->>>>>>> 0485df7f17fa9ac96f35000c5b6e0ad6ea4b3775
 }
